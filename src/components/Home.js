@@ -54,7 +54,7 @@ const Home = () => {
               confetBool={confetHandler}
             />{" "}
           </Route>
-          <Route path="/lizard-spock-game">
+          <Route path="/">
             <Game confetBool={confetHandler} />
             <Rules onClick={clickHandler}>RULES</Rules>
           </Route>
